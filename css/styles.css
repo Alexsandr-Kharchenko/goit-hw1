@@ -4,6 +4,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -13,8 +15,28 @@ button {
   cursor: pointer;
 }
 
-/* header */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
+.container {
+  width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
 .header-logo {
   font-style: italic;
   font-weight: 700;
@@ -42,6 +64,11 @@ button {
 
 .hero {
   background-color: #1e1823;
+  border-radius: 30px;
+}
+
+.container-wrapper {
+  padding: 325px 40px 40px 40px;
 }
 
 .hero-title {
@@ -73,9 +100,13 @@ button {
 
 .feature {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .feature-list {
+  padding-left: 36px;
+  padding-right: 36px;
 }
 .feature-item {
 }
@@ -84,6 +115,7 @@ button {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
 
 .feature-item-text {
@@ -93,6 +125,10 @@ button {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.taste {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 .taste-title {
   font-weight: 600;
   font-size: 24px;
@@ -107,7 +143,7 @@ button {
   color: #fd9222;
 }
 
-.taste-item-one {
+.taste-item {
   border-radius: 15px;
   width: 270px;
   height: 270px;
@@ -140,6 +176,10 @@ button {
   color: #fff;
 }
 
+.made {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .made-title {
   font-weight: 600;
   font-size: 24px;
@@ -151,7 +191,9 @@ button {
 }
 
 .made-title {
+  margin-bottom: 50px;
 }
+
 
 .made-image {
 }
@@ -161,9 +203,10 @@ button {
   font-size: 18px;
   line-height: 1.33333;
   color: #111;
-}
+  margin-bottom: 28px;
 
 .made-list {
+  margin-bottom: 24px;
 }
 
 .made-item {
