@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background: #fafafa;
 }
 
 ul {
@@ -11,6 +12,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 button {
   cursor: pointer;
 }
@@ -31,32 +33,49 @@ h6 {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.accent {
+  color: #fd9222;
+}
 
 /* header */
+
 .header {
   padding-top: 28px;
   padding-bottom: 28px;
 }
+
 .header-logo {
-  font-style: italic;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1;
+  line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
 }
-.header-logo-stalic {
+
+.header-logo-italic {
   font-style: italic;
 }
-.harden-navigation-link {
+
+.header-menu-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14286;
+  line-height: 1.14;
   letter-spacing: -0.02em;
   color: #111;
 }
-.harden-navigation-link:hover,
-.harden-navigation-link:focus {
+
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #fd9222;
 }
 
@@ -65,10 +84,11 @@ h6 {
 .hero {
   background-color: #1e1823;
   border-radius: 30px;
+  margin-bottom: 72px;
 }
 
 .container-wrapper {
-  padding: 325px 40px 40px 40px;
+  padding: 375px 40px 40px 40px;
 }
 
 .hero-title {
@@ -77,17 +97,21 @@ h6 {
   line-height: 1.21429;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-bottom: 32px;
 }
+
 .hero-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
 }
+
 .hero-anchor-link {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
 }
+
 .hero-scroll-link {
   font-weight: 500;
   font-size: 14px;
@@ -108,6 +132,7 @@ h6 {
   padding-left: 36px;
   padding-right: 36px;
 }
+
 .feature-item {
 }
 
@@ -125,43 +150,35 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Taste */
+
 .taste {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .taste-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.accent {
-  color: #fd9222;
-}
-
-.taste-item {
-  border-radius: 15px;
-  width: 270px;
-  height: 270px;
-  background-color: #fd9222;
-}
-.taste-item-two {
-  background-color: #1e1823;
+  margin-bottom: 28px;
 }
 
 .taste-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
   color: #111;
+  margin-bottom: 50px;
 }
+
 .taste-list {
+}
+
+.taste-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  width: 270px;
+  height: 270px;
+  padding: 28px 32px;
 }
 
 .taste-image {
@@ -176,26 +193,23 @@ h6 {
   color: #fff;
 }
 
+/* Made */
+
 .made {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .made-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16667;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.made-title {
   margin-bottom: 50px;
 }
 
-
 .made-image {
+}
+
+.made-content {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 32px;
 }
 
 .made-subtitle {
@@ -204,32 +218,32 @@ h6 {
   line-height: 1.33333;
   color: #111;
   margin-bottom: 28px;
+}
 
 .made-list {
-  margin-bottom: 24px;
 }
 
 .made-item {
+  margin-bottom: 24px;
+}
+
+.made-item:last-child {
+  margin-bottom: 0;
 }
 
 .made-item-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
 }
+
+/* revie */
 
 .review {
 }
 
 .review-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16667;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .review-list {
@@ -238,19 +252,18 @@ h6 {
 .review-item {
 }
 
-.review-item-image {
+.review-image {
 }
 
 .review-subtitle {
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   text-align: center;
   color: #111;
 }
 
 .review-item-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -258,7 +271,7 @@ h6 {
   color: rgba(17, 17, 17, 0.7);
 }
 
-.button {
+.review-btn {
   font-weight: 600;
   font-size: 18px;
   color: #111;
@@ -270,7 +283,7 @@ h6 {
 .footer-title {
   font-weight: 500;
   font-size: 28px;
-  line-height: 1.21429;
+  line-height: 1.21;
   letter-spacing: -0.02em;
   color: #fff;
 }
@@ -278,17 +291,36 @@ h6 {
 .footer-subtitle {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   text-align: center;
   color: #fff;
 }
+
+.footer-address {
+  font-style: normal;
+}
+
+.footer-address-list {
+}
+
+.footer-address-item {
+}
+
 .footer-adderess-list {
-  font-weight: 400;
+}
+
+.footer-address-link {
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
 }
 
 .footer-menu-link {
