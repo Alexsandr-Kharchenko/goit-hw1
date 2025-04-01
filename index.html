@@ -38,6 +38,16 @@
             </li>
           </ul>
         </nav>
+        <ul class="header-soc-list">
+          <li class="header-soc-item">
+            <a class="header-soc-link" href="">test</a>
+          </li>
+          <li header-soc-item>
+            <a class="header-soc-link" href="">
+              <svg class="header-soc-icon" width="24" heigh="24"></svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -283,5 +293,44 @@
         </li>
       </ul>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">x</button>
+        <p class="section-title">
+          LEAVE A REVIEW ABOUT <span class="accent">OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-lable">Name</label>
+            <div class="modal-input-wrapper">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./icon/symbol-defs.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-name" class="modal-lable">Email</label>
+            <input type="email" class="modal-input" name="user-email"
+            id="user-email />
+          </div>
+          <div class="modal-field">
+            <label for="user-name" class="modal-lable">Phone number</label>
+            <input
+              type="tel"
+              class="modal-input"
+              name="user-tel"
+              id="user-tele"
+            />
+          </div>
+          <button type="submit"></button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
